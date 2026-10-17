@@ -14,7 +14,11 @@ Requires Python 3.10 or later. From this directory:
 python app.py
 ```
 
-Then open `http://127.0.0.1:8000` in a browser. The current view is a skeleton; evidence storage and rules arrive in the next milestones.
+Then open `http://127.0.0.1:8000` in a browser. The current view is a skeleton; the clickable trail and rules arrive in later milestones.
+
+## Synthetic evidence store
+
+`evidence_store.py` provides a repeatable local SQLite schema and seed data for three synthetic transactions. It records linked stock movements, invoices, and payments, including a quantity-conflict scenario and an intentionally missing payment link for the upcoming rules API. Call `seed_database()` to create a local demo database; generated databases are not stored in the repository.
 
 ## Test
 
