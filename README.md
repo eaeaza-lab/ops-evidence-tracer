@@ -1,6 +1,6 @@
 # Offline Operations Evidence Tracer
 
-Status: **work in progress**
+**Status:** prototype — core flow works, still in development.
 
 Offline Operations Evidence Tracer is a local web app for exploring synthetic order, stock, invoice, and payment records as one clickable evidence trail. It is intended to make broken links, conflicting quantities, and unexplained status changes easy to spot and explain.
 
@@ -28,3 +28,6 @@ python -m unittest discover -s tests
 
 All sample data is synthetic. The app makes no network requests at runtime.
 
+## License
+
+MIT — see [LICENSE](LICENSE).
